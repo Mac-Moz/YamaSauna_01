@@ -1,0 +1,493 @@
+/* ここから下に記載していく */
+.header_outer {
+    font-size: 120%;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #fff 0%, #fff 50%, #c4d7d1 50%, #c4d7d1 100%);
+
+}
+
+.header_top {
+    font-size: 300%;
+
+}
+
+.header_inner--left {
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.header_sub {
+    margin: 20px;
+    font-size: 120%;
+}
+
+.mainvisual_over {
+    position: relative;
+    width: 100%;
+
+}
+
+
+.Yamasauna__over-01{
+    margin-top: 100px;
+    position: relative;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    height: 340px;
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.slideshow {
+    display: flex;
+    animation: loop-slide 30s infinite linear 1s both;
+}
+
+@keyframes loop-slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.content {
+    width: 500px;
+    height: 350px;
+}
+/* .Yamasauna__over a {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    /*ベンダープレフィックス*/
+    -webkit-transform: translate(-50%, -50%);
+    /*ベンダープレフィックス*/
+    transform: translate(-50%, -50%);
+    /*センター寄せの修正*/
+    margin: 0 !important;
+    /*文字がずれている場合や*/
+    padding: 0 !important;
+    /*文字が折り返される場合*/
+
+} */
+
+.Yamasauna__over{
+    margin: 50px;
+}
+
+.Yamasauna__over img {
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+
+}
+
+
+.Yamasauna__tag_01 {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 100%;
+    text-align: center;
+    font-size: 250%;
+    color: white;
+}
+
+.Yamasauna__tag_02 {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 150%;
+    color: #000;
+
+}
+
+.Yamasauna__tag_03 {
+
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 150%;
+    color: #000;
+
+}
+
+.SectonCourseTitle_title {
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 120px;
+    padding: auto;
+}
+
+.SectonCourseTitle_body {
+    text-align: center;
+    margin-bottom: 60px;
+    line-height: 30px;
+}
+
+.SectonCourse__Outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.SectonCourse__Outer--reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+
+}
+
+.SectonCourse__Outer--size {
+    width: 50%;
+}
+
+
+.SectonCourse__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    background-color: rgb(218, 213, 213);
+
+}
+
+.SectonCourse__inner--reverse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: rgb(218, 213, 213);
+
+
+}
+
+.SectonCourse__inner--title {
+    font-size: 120%;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+
+.SectonCourse__inner--body {
+    font-size: 100%;
+    width: 80%;
+}
+
+/* .main-1,
+.main-2,
+.main-3 {
+    color: #fff;
+    padding: 5%;
+    width: 400px;
+    height: 400px;
+    margin: 0 -15px;
+    mix-blend-mode: multiply;
+} */
+
+
+
+.main__outer {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.main__inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 30px;
+
+
+}
+
+.main__inner p {
+    background: #efefef;
+    border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
+    padding: 4%;
+
+
+
+}
+
+.main-text {
+    margin-top: 10px;
+    border: 6px solid #333;
+    height: 200%;
+    line-height: 150%;
+}
+
+
+
+.main__inner img {
+    width: 400px;
+    height: 250px;
+    border-radius: 100px;
+    /* border: 2px solid #333; */
+}
+
+.circle-1,
+.circle-2,
+.circle-3 {
+    color: #fff;
+    padding: 5%;
+    width: 400px;
+    height: 300px;
+    margin: 0 -15px;
+    mix-blend-mode: multiply;
+    text-align: center;
+    font-size: 150%;
+    line-height: 40px;
+}
+
+.circle-1 {
+    background: rgb(48, 47, 47);
+    border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+}
+
+.circle-2 {
+    background: rgb(145, 143, 142);
+    border-radius: 80% 30% 50% 50%/50%;
+}
+
+.circle-3 {
+    background: rgb(77, 75, 69);
+    border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+}
+
+.System__outer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* background: #ffd; */
+}
+
+body {
+    font-family: Hannotate SC;
+    background-color: rgb(214, 211, 211);
+    font-size: 130%;
+}
+
+.Subtitle{
+    font-size: 250%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Subtitle p {
+    position: relative;
+   
+}
+
+.Subtitle p:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    content: '';
+    border-top: 2px solid #000;
+    background-image: -webkit-repeating-linear-gradient(135deg, #000, #000 1px, transparent 2px, transparent 5px);
+    background-image: repeating-linear-gradient(-45deg, #000, #000 1px, transparent 2px, transparent 5px);
+    background-size: 7px 7px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.Access__backcolor {
+    background-color: rgb(218, 213, 213);
+    padding-bottom: 60px;
+}
+
+.access_00 {
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 120px;
+    padding: auto;
+}
+
+.access_00_01 {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    padding: auto;
+}
+
+
+
+.AccessDetail_outer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+.AccessDetail_inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 130%;
+    padding-top: 30px;
+    color: #fff;
+
+}
+
+.AccessDetail_inner_column {
+    flex-basis: 50%;
+
+}
+
+.AccessDetail_inner_cotent {
+    flex-basis: 100%;
+
+}
+
+.Access_map__aligin {
+    width: 100%;
+    margin-bottom: 60px;
+
+}
+
+.Adujust__size{
+    width: 800px;
+    margin: 50px;
+ 
+}
+
+iframe{
+    border-radius: 5%;
+    width: 800px;
+    height: 500px;
+}
+
+.Reservation_outer__flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+.Reservation_outer__form{
+    margin-left: 40px;
+}
+
+.Reservation_inner__flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+
+.Reservation_inner__title {
+    flex-basis: 240px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 64px;
+    line-height: 20px;
+    border-top: solid #bfbfbf;
+    border-right: solid #bfbfbf;
+    color: #fff;
+
+
+}
+
+.Reservation_inner_cotent {
+    flex-basis: 100px;
+    border-top: solid #bfbfbf;
+    color: #fff;
+
+}
+
+.Reservation_inner_cotent__input {
+    margin: 8px;
+    width: 328px;
+    height: 36px;
+    
+}
+
+.Reservation_inner_cotent__input_check {
+    margin: 8px;
+    width: 328px;
+
+}
+
+
+
+.Reservation_inner__checkbox {
+    display: flex;
+    padding-bottom: 24px;
+
+
+}
+
+.Reservation_sentbottom_outer {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.Reservation_sentbottom {
+
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    background-color: #707070;
+    font-size: 100%;
+    margin-bottom: 140px;
+    transition: all .5s;
+    border-radius: 10%;
+
+
+}
+
+.Reservation_sentbottom:hover {
+    color: #fff;
+    background-color: #ee2d7b;
+
+}
+
+.Footer__color {
+    background-color: #707070;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #fff;
+
+}
